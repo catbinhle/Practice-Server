@@ -3,7 +3,7 @@ const cors = require('cors');
 const express = require('express');
 const mongoose = require('mongoose');
 // const mongoString = process.env.DATABASE_URL;
-const port = process.env.PORT || 3000
+const port = process.env.PORT
 
 mongoose.connect('mongodb+srv://catbinhle:MDBLcb2022@cluster0.oc8kn.mongodb.net/test');
 const database = mongoose.connection;
