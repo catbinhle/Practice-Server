@@ -24,5 +24,6 @@ const routes = require('./routes/routes');
 app.use('/api', routes)
 
 app.listen(port, () => {
+    console.log(`HOSTNAME Started at ${process.env.HOSTNAME }`)
     console.log(`Server Started at ${port}`)
 })
