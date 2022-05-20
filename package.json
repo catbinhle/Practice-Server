@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/catbinhle/PracticeServer/issues"
   },
-  "homepage": "https://github.com/catbinhle/PracticeServer#readme",
+  "homepage": "https://cattechsolutions.com",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.0.1",
