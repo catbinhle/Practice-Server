@@ -3,6 +3,7 @@ const cors = require('cors');
 const express = require('express');
 const mongoose = require('mongoose');
 // const mongoString = process.env.DATABASE_URL;
+const port = process.env.PORT || 3000
 
 mongoose.connect('mongodb+srv://catbinhle:MDBLcb2022@cluster0.oc8kn.mongodb.net/test');
 const database = mongoose.connection;
@@ -22,6 +23,6 @@ const routes = require('./routes/routes');
 
 app.use('/api', routes)
 
-app.listen(process.env.PORT || 3000, () => {
-    console.log(`Server Started at ${3000}`)
+app.listen(port, () => {
+    console.log(`Server Started at ${port}`)
 })
